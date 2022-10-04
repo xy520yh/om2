@@ -1,21 +1,21 @@
 
 //点击注册按钮 弹出注册
-// $('.sure_btn').click(function(){
-//   $('.masked').css('display','block');
-//   $('.tc_register').css('display','block');
-// })
+$('.sure_btn').click(function(){
+  $('.masked').css('display','block');
+  $('.tc_register').css('display','block');
+})
 
 //点击注册框里的确认 弹出成功
-// $('.btn1,.register_closed').click(function(){
-//   $('.masked').css('display','block');
-//   $('.tc_register').css('display','none');
-//   $('.tc_success_compeleted').css('display','block');
-// })
+$('.btn1,.register_closed').click(function(){
+  $('.masked').css('display','block');
+  $('.tc_register').css('display','none');
+  $('.tc_success_compeleted').css('display','block');
+})
 
-// $('.ok,.success_closed').click(function(){
-//   $('.masked').css('display','none');
-//   $('.tc_success_compeleted').css('display','none');
-// })
+$('.ok,.success_closed').click(function(){
+  $('.masked').css('display','none');
+  $('.tc_success_compeleted').css('display','none');
+})
 
 // 注册框里面切换
 $('.register ul li').mouseover(function(){
